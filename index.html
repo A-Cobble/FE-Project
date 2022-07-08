@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link href = "/Styling/styles.css" rel ="stylesheet"/>
+    <script defer src="EntryPoint.js"></script>
+    <title>Middle Earth FE Project</title>
+</head>
+<body>
+    <div id="container">
+        <div id="headBar">
+
+            <div class="home"></div>
+
+            <div class="buttonContainer">
+                <button class="characterList">List of Characters</button>
+                <button class="randomBattle">Random Battle</button>
+                <button class="randomQuote">Random Quote</button>
+                <button class="btn">Random Race</button>
+            </div>
+
+            <form id="user-form">
+                <input type="text" name='search' placeholder="Enter Character Name">
+                <button type='submit' id="submit">Search</button>
+            </form>
+            
+        </div>
+
+        <div id="mainBody">
+            <div class="buttonScreen"></div>
+        </div>
+
+        <div id="bottomBar"></div>
+    </div>
+</body>
+</html>
