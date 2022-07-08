@@ -155,6 +155,18 @@ body{
     overflow-y:scroll;
 }
 
+a{
+    text-decoration: none;
+    color:white;
+    font-size:300%;
+}
+
+a:hover{
+    color: rgb(232,196,86)
+}
+
+
+
 /* li{
     position:relative;
     margin:3px;
