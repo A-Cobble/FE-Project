@@ -27,6 +27,12 @@ How To Use:
 
     - Open browser and go to middle_earth.surge.sh
 
+    - Open an additional window and go to https://cors-anywhere.herokuapp.com/corsdemo.
+
+    - Click request temporary access to the demo server.
+
+    - Return to the middle_earth.surge.sh window.
+
     - To search for data on a specific character type that characters name into the search bar in upper right
 
     - To view all possible characters that can be searched, click on the "List of Characters" button.
